@@ -9,8 +9,8 @@ function addTask() {
     const li = document.createElement('li');
     li.innerHTML = `
         <span>${taskText}</span>
-        <button onclick="completeTask(this)">✔️</button>
-        <button onclick="deleteTask(this)">🗑️</button>
+        <button class="icon" onclick="completeTask(this)">✔️</button>
+        <button class="icon" onclick="deleteTask(this)">🗑️</button>
     `;
     taskList.appendChild(li);
     taskInput.value = '';
