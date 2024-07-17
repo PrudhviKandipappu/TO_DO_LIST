@@ -23,7 +23,7 @@ input[type="text"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #69726b;
+    background-color: #6a6972;
     border: none;
     border-radius: 4px;
     color: white;
@@ -33,9 +33,9 @@ button {
 }
 
 .icon {
-    width: 50%;
+    width: 10%;
     padding: 10px;
-    background-color: #afe3f1;
+    background-color: #e67faf;
     border: none;
     border-radius: 4px;
     color: white;
